@@ -14,9 +14,10 @@
     "Lambda-30"
   ],
   "author": "Jeremy Darling <jeremy.darling@gmail.com>",
-  "license": "MIT",
+  "license": "git remote add origin ",
   "dependencies": {
     "browserify": "^11.0.1",
     "lambda-30": "0.0.2"
-  }
+  },
+  "devDependencies": {}
 }
