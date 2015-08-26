@@ -1,0 +1,22 @@
+{
+  "name": "precis-lambda-30",
+  "version": "0.0.1",
+  "description": "Lambda-30 for Precis UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "mkdir -p lib/; node_modules/.bin/browserify node_modules/lambda-30/index.js > ./lib/lambda-30.js",
+    "preuninstall": "rm -rf lib/"
+  },
+  "keywords": [
+    "Precis",
+    "Lambda",
+    "Lambda-30"
+  ],
+  "author": "Jeremy Darling <jeremy.darling@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "lambda-30": "0.0.2"
+  }
+}
