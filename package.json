@@ -17,7 +17,7 @@
   "license": "git remote add origin ",
   "dependencies": {
     "browserify": "^11.0.1",
-    "lambda-30": "0.0.4"
+    "lambda-30": "0.0.5"
   },
   "devDependencies": {}
 }
