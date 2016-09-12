@@ -1,6 +1,6 @@
 {
   "name": "precis-lambda-30",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lambda-30 for Precis UI",
   "main": "index.js",
   "scripts": {
